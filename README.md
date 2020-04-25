@@ -12,17 +12,11 @@ This is a A collection of pure css section separators with the possiblity to cus
 First, install the dependencies
 
 ```bash
-npm i
-```
-
-
-Then you can start the development server
-
-```bash
-npm run dev
+npm i && npm run dev
 # or
-yarn dev
+yarn && yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+It is best to test with several browsers to check rendering indescrepencies.

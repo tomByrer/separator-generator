@@ -3,13 +3,13 @@ import { darkGrey } from '../../ui/constants'
 
 export const generateHtmlCode = active => active === SEPARATORS.SKEWED
 ? `<section>
-  <div class="${active}"></div>
+  <hr class="${active}">
 </section>`
 : active === SEPARATORS.WAVE
 ? `<section class="container">
-  <div class="${active}"></div>
+  <hr class="${active}">
 </section>`
-: `<section class="${active}"></section>`
+: `<hr class="${active}">`
 
 export const generateCssCode = ({ active, options }) => {
   return active === SEPARATORS.SKEWED ? `.${active} {
